@@ -8,6 +8,7 @@ class MavenTrainApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("ces");
     }
 
 }
