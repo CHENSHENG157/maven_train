@@ -23,6 +23,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Objects;
+
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
@@ -65,4 +67,16 @@ public class BasicController {
         user.setName("zhangsan");
         user.setAge(18);
     }
+
+
+    // http://127.0.0.1:8080/example
+    @RequestMapping("/example")
+    public Boolean example() {
+        String s = "0";
+        Integer i = 0;
+        boolean flag = Objects.equals(s, i);
+        return flag;
+    }
+
+
 }
