@@ -16,7 +16,7 @@
 
 package com.chm.maven_train.controller;
 
-import com.chm.maven_train.bean.User;
+import com.chm.maven_train.domain.bean.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;

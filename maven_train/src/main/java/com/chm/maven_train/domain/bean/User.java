@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.chm.maven_train.bean;
+package com.chm.maven_train.domain.bean;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>

@@ -1,4 +1,4 @@
-package com.chm.maven_train.service;
+package com.chm.maven_train.service.impl;
 
 
 import org.springframework.stereotype.Service;
